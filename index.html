@@ -1,1 +1,179 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .info-personal {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .info-item {
+            margin-bottom: 10px;
+            flex-basis: 48%;
+        }
+        .experiencia-item, .educacion-item {
+            margin-bottom: 15px;
+        }
+        .fecha {
+            font-weight: bold;
+            color: #7f8c8d;
+        }
+        .habilidades {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .habilidad {
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            margin: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Luis Estuardo Lima</h1>
+            <p>Estudiante del Tecnico En Desarrollo de Software</p>
+        </header>
+
+        <section class="section">
+            <h2>Información Personal</h2>
+            <div class="info-personal">
+                <div class="info-item">
+                    <strong>Dirección:</strong> Ciudad de Guatemala
+                </div>
+                <div class="info-item">
+                    <strong>Teléfono:</strong> 555-55555
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong> luis.estuardo.lima@gmail.com
+                </div>
+                <div class="info-item">
+                    <strong>Fecha de Nacimiento:</strong> 7/11/1986
+                </div>
+                <div class="info-item">
+                    <strong>LinkedIn:</strong> https://www.linkedin.com/in/luis-estuardo-lima-620912318/
+                </div>
+                <div class="info-item">
+                    <strong>Portafolio:</strong> LuisEstuardoLima.github.io
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Mi experiencia profesional ha sido principalemente en el area de atencion al Servicio al Cliente tomando llamadas, correos electronicos y chats.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Experiencia Laboral</h2>
+            <div class="experiencia-item">
+                <h3>CIP Representative</h3>
+                <p class="fecha">10/2021 - Actualmente</p>
+                <p><strong>PayPal</strong>, Guatemala</p>
+                <ul>
+                    <li>Revisar la documentacion de los cuentahabientes para validar la identidad del mismo(KYC)</li>
+                    <li>Comprobar las aplicacions de los casos HYS </li>
+                    <li>Revisar la documentacion de las cuentas de negocios de los cuentahavientes de los mismos (KYB)</li>
+                </ul>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>Representante de Servicio al Cliente| GameStop</h3>
+                <p class="fecha">11/2020 - 01/2022</p>
+                <p><strong>Atento Guatemala</strong>, [Ubicación]</p>
+                <ul>
+                    <li>Atender llamadas, Chats, e Emails de los clientes</li>
+                    <li>Proporcionar datos de ordenes y juegos por salir.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Educación</h2>
+            <div class="educacion-item">
+                <h3>Tecnico en Desarrollo de Software</h3>
+                <p class="fecha">01/2025 - Actualmente cursando</p>
+                <p><strong>Universidad Galileo</strong>, Campus Central Ciudad Guatemala</p>
+                <p>Desarrollo tecnico en desarrollo de software</p>
+            </div>
+
+            <div class="educacion-item">
+                <h3>Bachierato en Ciencias y Letras</h3>
+                <p class="fecha">01/2009 - 11/2010</p>
+                <p><strong>Colegio Liceo Canadiense Roosevelt</strong>, Guatemala</p>
+                <p>Bachillerato por madurez en Ciencias y Letras</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades</h2>
+            <div class="habilidades">
+                <span class="habilidad">Java - 45%</span>
+                <span class="habilidad">JavaScript - 45%</span>
+                <span class="habilidad">Python - 35% </span>
+                <span class="habilidad">Adaptabilidad</span>
+                <span class="habilidad">Empatia</span>
+                <span class="habilidad">Deseo de superacion</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Español: Nativo</li>
+                <li>Ingles: 90%</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Certificaciones</h2>
+            <ul>
+                <li>SQL para principiantes - 2024</li>
+                <li>Aprendiendo HTML Y CSS al crear un Wesponsive Company Website - 2019</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
